@@ -35,6 +35,8 @@ In unserer Datenbank ist der Hauptträger die Behandlung. Patienten, Ärzte, Zim
 - **id**: INT, auto_increment, PRIMARY KEY
     
 - **name**: VARCHAR(50), NOT NULL
+
+- **preis**: Decimal(10, 2)
     
 - **lagerbestand**: INT, NOT NULL
     
@@ -85,9 +87,9 @@ In unserer Datenbank ist der Hauptträger die Behandlung. Patienten, Ärzte, Zim
 
 - **id**: INT, auto_increment, PRIMARY KEY
     
-- **eintrit_datum**: DATE, NOT NULL
+- **eintritt_datum**: DATE, NOT NULL
     
-- **austrits_datum**: DATE, NOT NULL
+- **austritts_datum**: DATE, NOT NULL
     
 - **notizen**: VARCHAR(500), NULL allowed
     

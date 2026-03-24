@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "8c8f6db5bd60960a",
+    "id": "ff3870c7391b0ec7",
     "type": "split",
     "children": [
       {
-        "id": "aaf67a50020d9026",
+        "id": "6988f1f3cfa699c0",
         "type": "tabs",
         "children": [
           {
-            "id": "35849d4e730b895c",
+            "id": "0e8efa7a919ec7ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a8c1562e9f0a52de",
+    "id": "fd01a5fd1e38ccce",
     "type": "split",
     "children": [
       {
-        "id": "0c467f3a430a11b1",
+        "id": "b0876336f5844a3a",
         "type": "tabs",
         "children": [
           {
-            "id": "7c849b2f732d2a95",
+            "id": "9ff30fd7c03998f0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "d6b3e6bdaef38524",
+            "id": "723fccbf4fdaec1e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Suchen"
             }
           },
           {
-            "id": "66433fe88798a9ff",
+            "id": "7b8e90d9e1af934c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Lesezeichen"
             }
           }
         ]
@@ -81,15 +81,15 @@
     "width": 300
   },
   "right": {
-    "id": "ffdc95b331bed0c4",
+    "id": "47b3899992f17ffa",
     "type": "split",
     "children": [
       {
-        "id": "1fae649bfbef9373",
+        "id": "8d54fdd69325d7d0",
         "type": "tabs",
         "children": [
           {
-            "id": "9e3ae23449d446a9",
+            "id": "c01a9e5425a771c7",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -104,11 +104,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for doku"
+              "title": "Rückverweise auf doku"
             }
           },
           {
-            "id": "ad40a06ab8f19b72",
+            "id": "cc00fdcc7aa5b7dc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -118,11 +118,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from doku"
+              "title": "Ausgehende Links von doku öffnen"
             }
           },
           {
-            "id": "1a0e80b1fd6ee099",
+            "id": "8bc4e49ed7539487",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "c2729ca3e0772480",
+            "id": "49f1ebdfb377e3d6",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,11 +147,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Alle Eigenschaften"
             }
           },
           {
-            "id": "cf52d7877d298600",
+            "id": "3f1daed1f94bc65c",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -162,7 +162,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of doku"
+              "title": "Gliederung von doku"
             }
           }
         ]
@@ -183,6 +183,6 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "35849d4e730b895c",
+  "active": "0e8efa7a919ec7ca",
   "lastOpenFiles": []
 }

@@ -1,13 +1,17 @@
 ```table-of-contents
 ```
-# Enleitung
-## Ziel Des Projekt
-Das Zeil unseres Projektes ist es Krancken ackten in einem Spital zu managen. Ärzte können dort alle behandlungen erfassen und managen. Pflegekräfte können anhand der erfasten daten dann ebenfals auf die Behandlunge zugreifen und Wissen sofort welche behandlungen ein Patient Benötigt
+## Einleitung
+
+### Ziel des Projekts
+
+Das Ziel unseres Projektes ist es, Krankenakten in einem Spital zu managen. Ärzte können dort alle Behandlungen erfassen und verwalten. Pflegekräfte können anhand der erfassten Daten ebenfalls auf die Behandlungen zugreifen und wissen sofort, welche Behandlungen ein Patient benötigt.
 
 ## Tabellen und Beziehungen
 
-In unserer Datenbank ist der Hauptträger die Behandlung. Patienten, Ärzte, Zimmer und alle anderen Tabellen werden dort zusammengebracht. Die Pflegekräfte und die Ärzte gehören zu mindestens einer Abteilung, in der sich wiederum Zimmer befinden. In diesen finden die Behandlungen von Patienten statt. Patienten können pro behandlung Medikamente beckommen die das Krankenhaus auf Lager hat.
-## Atribute pro tabelle
+In unserer Datenbank ist der Hauptträger die Behandlung. Patienten, Ärzte, Zimmer und alle anderen Tabellen werden dort zusammengebracht. Die Pflegekräfte und die Ärzte gehören zu mindestens einer Abteilung, in der sich wiederum Zimmer befinden. In diesen finden die Behandlungen von Patienten statt. Patienten können pro Behandlung Medikamente bekommen, die das Krankenhaus auf Lager hat.
+
+## Attribute pro Tabelle
+
 ### abteilung
 
 - **id**: INT, auto_increment, PRIMARY KEY
@@ -101,14 +105,15 @@ In unserer Datenbank ist der Hauptträger die Behandlung. Patienten, Ärzte, Zim
 - **behandlung_id**: INT, NOT NULL, FOREIGN KEY references behandlung(id)
     
 - **Constraints**: Composite key (pflegekraft_id, behandlung_id) implied by structure
+    
 
-# Wahl des RDMS
+## Wahl des RDBMS
 
-Wir haben uns bei der Wahl des DMS auf MariaDB geeinigt, da es Open Source, stabil und schnell ist. Ausserdem ist es ein Industriestandard, der viel eingesetzt wird.
+Wir haben uns bei der Wahl des Datenbanksystems auf MariaDB geeinigt, da es Open Source, stabil und schnell ist. Außerdem ist es ein Industriestandard, der viel eingesetzt wird.
 
-# Datenmodelle
+## Datenmodelle
 
-## Konzeptionelles Datenmodell
+### Konzeptionelles Datenmodell
 
 ![[M164_KonzeptionellesDiagramm.jpg]]
 

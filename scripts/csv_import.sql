@@ -1,6 +1,6 @@
 USE krankenhaus;
 
-LOAD DATA LOCAL INFILE 'C:abteilung.csv'
+LOAD DATA LOCAL INFILE 'C:\\Daten\\CSV\\abteilung.csv'
 INTO TABLE abteilung
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -54,7 +54,7 @@ FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(id,eintrit_datum,austrits_datum,notizen,artzt_id,patient_id,zimmer_id);
+(id,eintritt_datum,austritts_datum,notizen,arzt_id,patient_id,zimmer_id);
 
 LOAD DATA LOCAL INFILE 'C:\\Daten\\CSV\\behandlung_medikament.csv'
 INTO TABLE behandlung_medikament

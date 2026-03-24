@@ -20,7 +20,7 @@ ORDER BY anz_bett DESC;
 
 -- 4
 -- Zeigt alle Patienten und (falls vorhanden) deren Behandlungen mit Eintrittsdatum
-SELECT p.vorname, p.nachname, b.eintrit_datum
+SELECT p.vorname, p.nachname, b.eintritt_datum
 FROM patient p
 LEFT JOIN behandlung b ON p.id = b.patient_id;
 
@@ -42,9 +42,9 @@ GROUP BY p.id;
 
 -- 7
 -- Zeigt alle Behandlungen mit Eintrittsdatum sowie zugehörigem Arzt und Patient
-SELECT b.eintrit_datum, a.nachname AS Arzt, p.nachname AS Patient
+SELECT b.eintritt_datum, a.nachname AS Arzt, p.nachname AS Patient
 FROM behandlung b
-JOIN arzt a ON b.artzt_id = a.id
+JOIN arzt a ON b.arzt_id = a.id
 JOIN patient p ON b.patient_id = p.id;
 
 
